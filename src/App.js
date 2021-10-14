@@ -8,8 +8,8 @@ import{
 } from "react-router-dom";
 
 import { Navbar } from './components/navbar/index';
-
-
+import { AllTodosPage } from './components/pages/all_todos';
+import { NewTodoPage } from './components/new_todos';
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
         <Navbar ></Navbar>
         <Switch>
           <Route exact path="/">
-            <div>Home Page</div>
+            <AllTodosPage></AllTodosPage>
           </Route>
           <Route path="/new">
-            <div>New Todo Page</div>
+            <NewTodoPage></NewTodoPage>
           </Route>
         </Switch>
       </Router>

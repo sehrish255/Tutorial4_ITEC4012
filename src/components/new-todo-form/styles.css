@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type=submit]{
+    font-size: 1.2rem;
+    color: white;
+    background: violet;
+    border:none;
+    padding: 20px;
+    font-weight:100;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover{
+    background: pink;
+}
